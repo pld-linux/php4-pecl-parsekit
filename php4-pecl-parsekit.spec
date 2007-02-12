@@ -4,7 +4,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - PHP Opcode Analyser
-Summary(pl):	%{_modname} - Analizator instrukcji PHP
+Summary(pl.UTF-8):   %{_modname} - Analizator instrukcji PHP
 Name:		php4-pecl-%{_modname}
 Version:	1.1
 Release:	1
@@ -29,14 +29,14 @@ contains some code which is potentially non-threadsafe.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-Dostarcza dzia³aj±cego w przestrzeni u¿ytkownika interpretera
+%description -l pl.UTF-8
+Dostarcza dziaÅ‚ajÄ…cego w przestrzeni uÅ¼ytkownika interpretera
 instrukcji wygenerowanych przez kompilator silnika Zend wbudowany w
 PHP.
 
 To rozszerzenie przeznaczone jest do rozwoju oraz w celu wyszukiwania
-b³êdów. Zawiera kod, który potencjalnie nie jest bezpieczny dla
-aplikacji wielow±tkowych.
+bÅ‚Ä™dÃ³w. Zawiera kod, ktÃ³ry potencjalnie nie jest bezpieczny dla
+aplikacji wielowÄ…tkowych.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
