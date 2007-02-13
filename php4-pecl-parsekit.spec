@@ -4,7 +4,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - PHP Opcode Analyser
-Summary(pl.UTF-8):   %{_modname} - Analizator instrukcji PHP
+Summary(pl.UTF-8):	%{_modname} - Analizator instrukcji PHP
 Name:		php4-pecl-%{_modname}
 Version:	1.1
 Release:	1
